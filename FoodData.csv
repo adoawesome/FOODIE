@@ -2,3 +2,41 @@ food,dining hall,meal,foodstate,elo
 salad,rat,lunch,solid,1000
 jello,rat,lunch,solid,1000
 donut,rat,lunch,solid,1000
+bacon,mac,breakfast,solid,1000
+bagel_egg_cheese,mac,breakfast,solid,1000
+waffles,mac,breakfast,solid,1000
+reuben,mac,breakfast,solid,1000
+crispy_potatoes,mac,breakfast,solid,1000
+omelet,mac,breakfast,solid,1000
+boiled_egg,mac,breakfast,solid,1000
+oatmeal,mac,breakfast,solid,1000
+english_muffin,mac,breakfast,solid,1000
+beef_chili,mac,breakfast,solid,1000
+cold_wraps,mac,breakfast,solid,1000
+chicken_breast,mac,lunch,solid,1000
+french_fries,mac,lunch,solid,1000
+onion_rings,mac,lunch,solid,1000
+orange_juice,mac,breakfast,liquid,1000
+steak,mac,dinner,solid,1000
+powerade,mac,lunch,liquid,1000
+soda,mac,lunch,liquid,1000
+café_latte,chocolate bar,breakfast,liquid,1000
+bc_bolt,chocolate bar,breakfast,liquid,1000
+cocoa,chocolate bar,breakfast,liquid,1000
+iced_coffee,chocolate bar,breakfast,liquid,1000
+meatball_obsession,addies,late night,solid,1000
+flatbread,addies,late night,solid,1000
+black_beans,addies,late night,solid,1000
+boston_beef_sandwich,stuart,breakfast,solid,1000
+sticky_rice,stuart,breakfast,solid,1000
+bc_burger,mac,lunch,solid,1000
+pasta,mac,lunch,solid,1000
+asian_red_ribs,stuart,lunch,solid,1000
+ice_cream,mac,lunch,solid,1000
+french_toast,lower,breakfast,solid,1000
+screaming_eagles,mac,lunch,solid,1000
+cajun_chicken,lower,dinner,solid,1000
+cajun_salmon,lower,dinner,solid,1000
+apple_juice,mac,lunch,liquid,1000
+thai_bbq,mac,lunch,solid,1000
+chicken_curry,mac,lunch,solid,1000

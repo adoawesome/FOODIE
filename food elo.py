@@ -4,10 +4,12 @@ import csv #to read and write data
 
 #the csv file where the data is stored
 path="C:\Users\Van-Ado Jean-Noel\Desktop\FoodData.csv"
-
+returns_path="C:\Users\Van-Ado Jean-Noel\Desktop\FoodDataReturn.csv"
 
 food_list=[] #has the location on the memory of all the foods, (unintelligible)
 name_list=[] #has the list of foods in english
+
+trials=0
 
 #lists for reference, no real use in the code
 dining_hall_list=["lower","mac","rat","eagles nest","stuart","chocolate bar","hillside","addies"]
@@ -61,7 +63,7 @@ def promptuser():
     random2=random.sample(food_list, 2)
     randoma=random2[0]
     randomb=random2[1]
-    
+
     print "Which food is better?"
     
     print randoma.name
@@ -101,19 +103,16 @@ def elodecision(winningfood,losingfood):
     losingfood.elo=int(losingfood.elo)
     print winningfood.name,winningfood.elo,losingfood.name,losingfood.elo
 
+print "how many times would you like to select a food?"
+trials=raw_input("")
+trials=int(trials)
+for i in range(trials): 
+    promptuser()
 
-promptuser()
-promptuser()
-promptuser()
-promptuser()
-promptuser()
-promptuser()
-promptuser()
-promptuser()
-promptuser()
-promptuser()
-promptuser()
-promptuser()
+#file=open(returns_path, 'w')
+#writer = csv.writer(file)
+#writer.writerow(["name","dining_hall","meal","foodstate","elo"])
 
-
+#for i in food_list:
+#   writer.writerow([self.name,self.dining_hall,self.meal,self.mealstate,self.elo])
 
